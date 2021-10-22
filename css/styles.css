@@ -129,9 +129,12 @@ h3 {
 /* МЕЙН */
 /* Секция 1 */
 .hero {
-  background-color: #2f303a;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
   padding-top: 200px;
   padding-bottom: 200px;
+  background-repeat: no-repeat;
+  border-style: cover;
+  background-position: center;
 }
 .hero-title {
   font-weight: 900;
