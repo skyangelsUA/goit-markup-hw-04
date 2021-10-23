@@ -322,15 +322,15 @@ h3 {
   border-radius: 4px;
   width: 100%;
   height: 100%;
+  color: var(--icons);
 }
 .customers-icon {
-  fill: var(--icons);
+  fill: currentColor;
 }
 .customers-link:hover,
-.customers-icon:hover {
+.customers-link:focus {
   color: var(--hover-focus-color);
   border-color: var(--hover-focus-color);
-  fill: currentColor;
 }
 /* ФУТЕР */
 .footer {
