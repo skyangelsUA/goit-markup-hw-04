@@ -326,9 +326,11 @@ h3 {
 .customers-icon {
   fill: var(--icons);
 }
-.customers-link:hover {
+.customers-link:hover,
+.customers-icon:hover {
+  color: var(--hover-focus-color);
   border-color: var(--hover-focus-color);
-  fill: var(--hover-focus-color);
+  fill: currentColor;
 }
 /* ФУТЕР */
 .footer {
@@ -372,13 +374,16 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
+
+  margin-left: 70px;
 }
-.test {
+.flex {
   display: flex;
 }
 
 .footer-social-list {
   display: flex;
+  margin-left: 70px;
 }
 .footer-social-list .item + .item {
   margin-left: 10px;
