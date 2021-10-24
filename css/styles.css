@@ -379,6 +379,7 @@ h3 {
 }
 .flex {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-social-list {
