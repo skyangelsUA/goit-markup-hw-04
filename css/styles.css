@@ -28,6 +28,11 @@ img {
   color: var(--hover-focus-color);
   cursor: pointer;
 }
+.link-header:hover,
+.link-header:focus {
+  color: var(--hover-focus-color);
+  cursor: pointer;
+}
 .nav-list .link.current {
   color: var(--hover-focus-color);
 }
