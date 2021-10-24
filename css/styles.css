@@ -33,10 +33,10 @@ img {
   color: var(--hover-focus-color);
   cursor: pointer;
 }
-.nav-list .link.current {
+.nav-list .current {
   color: var(--hover-focus-color);
 }
-.link-color {
+.link-header {
   color: var(--title-color);
 }
 ul {
@@ -106,7 +106,7 @@ h3 {
 .logo-color {
   color: var(--hover-focus-color);
 }
-.nav-list .link {
+.nav-list .link-header {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
